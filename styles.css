@@ -1,4 +1,8 @@
-.hexagon {
+body{
+  background-image: url("img/background-xl.jpg");
+}
+
+/*.hexagon {
     position: relative;
     width: 150px; 
     height: 86.60px;
@@ -24,6 +28,20 @@
     top: 100%;
     width: 0;
     border-top: 43.30px solid #d29662;
+  }*/
+
+  .paraPresentation{
+    background-color: #d19b6c;
   }
 
+  .imgtest{
+    display:flex;
+    display:-webkit-flex; 
+    flex-flow: wrap;
+    -webkit-flex-flow: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+  }
 
