@@ -61,6 +61,16 @@ body{
     margin-bottom: 24px;
   }
 
+  .formulaire{
+    background-color: #d19b6c;
+    margin-bottom: 24px;
+  }
+
+  .envoi{
+    margin-top: 24px;
+    padding-bottom: 12px;
+  }
+
   /*
   * {
 
