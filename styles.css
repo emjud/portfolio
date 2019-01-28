@@ -46,6 +46,21 @@ body{
     -webkit-align-items: center;
   }
 
+  .titre{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .testPara{
+    margin: 12px;
+    background-color: #d19b6c;
+  }
+
+  .logoProjet{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
   /*
   * {
 
