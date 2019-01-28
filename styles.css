@@ -1,5 +1,6 @@
 body{
   background-image: url("img/background-xl.jpg");
+  background-attachment:fixed;
 }
 
 /*.hexagon {
@@ -44,4 +45,15 @@ body{
     align-items: center;
     -webkit-align-items: center;
   }
+
+  /*
+  * {
+
+    background: #000 !important;
+   
+    color: #0f0 !important;
+   
+    outline: solid #f00 1px !important;
+   
+   }*/
 
