@@ -1,84 +1,86 @@
 body{
-  background-image: url("img/background-xl.jpg");
-  background-attachment:fixed;
-}
-
-/*.hexagon {
-    position: relative;
-    width: 150px; 
-    height: 86.60px;
-    background-color: #d29662;
-    margin: 43.30px 0;
+    background-image: url("img/background-xl.jpg");
+    background-attachment:fixed;
   }
   
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-  }
+  /*.hexagon {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #d29662;
+      margin: 43.30px 0;
+    }
+    
+    .hexagon:before,
+    .hexagon:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 75px solid transparent;
+      border-right: 75px solid transparent;
+    }
+    
+    .hexagon:before {
+      bottom: 100%;
+      border-bottom: 43.30px solid #d29662;
+    }
+    
+    .hexagon:after {
+      top: 100%;
+      width: 0;
+      border-top: 43.30px solid #d29662;
+    }*/
   
-  .hexagon:before {
-    bottom: 100%;
-    border-bottom: 43.30px solid #d29662;
-  }
+    .paraPresentation{
+      background-color: #d19b6c;
+    }
   
-  .hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 43.30px solid #d29662;
-  }*/
+    .imgtest{
+      display:flex;
+      display:-webkit-flex; 
+      flex-flow: wrap;
+      -webkit-flex-flow: wrap;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      align-items: center;
+      -webkit-align-items: center;
+    }
+  
+    .titre{
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  
+    .testPara{
+      margin: 12px;
+      background-color: #d19b6c;
+    }
+  
+    .logoProjet{
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  
+    .formulaire{
+      background-color: #d19b6c;
+      margin-bottom: 24px;
+    }
+  
+    .envoi{
+      margin-top: 24px;
+      padding-bottom: 12px;
+    }
+  
+    /*
+    * {
+      background: #000 !important;
+     
+      color: #0f0 !important;
+     
+      outline: solid #f00 1px !important;
+     
+     }*/
 
-  .paraPresentation{
-    background-color: #d19b6c;
-  }
-
-  .imgtest{
-    display:flex;
-    display:-webkit-flex; 
-    flex-flow: wrap;
-    -webkit-flex-flow: wrap;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
-  }
-
-  .titre{
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
-
-  .testPara{
-    margin: 12px;
-    background-color: #d19b6c;
-  }
-
-  .logoProjet{
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
-
-  .formulaire{
-    background-color: #d19b6c;
-    margin-bottom: 24px;
-  }
-
-  .envoi{
-    margin-top: 24px;
-    padding-bottom: 12px;
-  }
-
-  /*
-  * {
-
-    background: #000 !important;
-   
-    color: #0f0 !important;
-   
-    outline: solid #f00 1px !important;
-   
-   }*/
-
+     .modal-lg {
+        max-width: 80%;
+    }
