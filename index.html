@@ -9,6 +9,28 @@
     <title>Emmanuel JUD</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md sticky-top  navbar-dark bg-dark" id="mainNavigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-items">
+                    <a class="nav-link" href="#presentation">Ma présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#competences">Mes compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projets">Mes projets</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contact">Me contacter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="presentation"></div>
     <div class="text-center"> <!--Présentation-->
         <div class="titre"></div>
             <img src="img/presentation.png" class="img-fluid" alt="Responsive image">
@@ -16,11 +38,15 @@
     </div>
     <div class="jumbotron paraPresentation">
         <div class="container">
-            <p class="lead text-white">Lorem Elsass ipsum eget hopla hopla Chulia Roberstau nullam vielmols, mamsell Heineken ullamcorper Morbi.
+            <p class="lead text-white text-center">Bonjour, je suis Emmanuel JUD, j'ai 23 ans et j'habite en France
                 <br>
-                 réchime DNA, gravida merci vielmols sagittis turpis in, Richard Schirmeck elementum Salu bissame quam, non suspendisse ornare mollis varius baeckeoffe ch'ai turpis, id knack habitant Spätzle  eleifend chambon consectetur blottkopf, messti de Bischheim geïz id, sit Carola quam. lacus tchao bissame Oberschaeffolsheim schnaps dui yeuh. tellus leo aliquam jetz gehts los leverwurscht rossbolla Christkindelsmärik rhoncus barapli ornare wurscht kuglopf Chulien météor purus morbi bredele semper dolor hopla ac Yo dû. libero, sed Huguette Gal. Coopé de Truchtersheim Racing. schneck sit Wurschtsalad so Mauris dignissim Pfourtz ! </p>
+                Je suis un développeur qui créer principalement des sites webs ainsi que des programmes électronique basé sur arduino / python.
+                <br>
+                Je suis également un passionné de cyclisme et de biathlon.
+            </p>
         </div>
     </div>
+    <div id="competences"></div>
     <div class="text-center"> <!--Logiciel-->
         <div class="titre"><img src="img/Logiciel.png" class="img-fluid" alt="Responsive image"></div>
     </div>
@@ -51,6 +77,7 @@
             <div><img src="img/sketchupV.png" class="img-fluid" alt="Responsive image"></div>
         </div>
     </div>
+    <div id="projets"></div>
     <div class="text-center"> <!--Mes projets-->
         <div class="titre"><img src="img/projets.png" class="img-fluid" alt="Responsive image"></div>   
     </div>
@@ -84,7 +111,7 @@
                         Le site a été réalisé en HTML, CSS et PHP.
                     </p>
                     <div><img src="img/projet2.jpg" class="img-fluid" alt="Responsive image" ></div>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projet2">Aggrandir</button>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#projet2">Aggrandir</button>
                     <!--Modal-->
                     <div class="modal fade" id="projet2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
@@ -99,7 +126,7 @@
                                     <img src="img/projet2TR.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal">fermer</button>
+                                    <button type="button" class="btn btn-link" data-dismiss="modal">fermer</button>
                                 </div>
                             </div>
                         </div>
@@ -123,6 +150,7 @@
             </div>
         </div>
     </div>
+    <div id="contact"></div>
     <div class="text-center"> <!--Me contacter-->
         <div class="titre">
             <img src="img/contact.png" class="img-fluid" alt="Responsive image"></div>
@@ -149,6 +177,13 @@
                 <button type="submit" class="btn btn-info">Envoyer</button>
             </div>
         </form>
+    </div>
+
+    
+    <div class="navbar-dark bg-dark text-white" role="alert">
+        <div class="d-flex justify-content-around">
+            <a class="nav-link" href="index.html">Haut de page</a>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
