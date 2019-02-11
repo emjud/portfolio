@@ -84,3 +84,16 @@ body{
      .modal-lg {
         max-width: 80%;
     }
+
+    .competence{
+      position: relative;
+      width: 480px;
+      height: 45px;
+    }
+    .bg-comp {
+      position: absolute;
+      top:10px;
+    }
+    .velo-comp {
+      position: absolute;
+    }
